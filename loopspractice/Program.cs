@@ -159,19 +159,54 @@ namespace loopspractice
             //ask the if they have another class they would like to take
             //using a do-while loop repeat the code if user says "YES"
 
-            string moreGpa;
-            do
-            {
-                Console.WriteLine("What class would you like to take to add to your GPA?");
-                Console.ReadLine();
-                Console.WriteLine("please enter the letter grade for the class you want to add.");
-                Console.ReadLine();
-                Console.WriteLine("Is there another class you would like to take? Type YES/NO");
-                moreGpa = Console.ReadLine();
-            }
-            while (moreGpa == "YES");
+            //string moreGpa;
+            //do
+            //{
+            //    Console.WriteLine("What class would you like to take to add to your GPA?");
+            //    Console.ReadLine();
+            //    Console.WriteLine("please enter the letter grade for the class you want to add.");
+            //    Console.ReadLine();
+            //    Console.WriteLine("Is there another class you would like to take? Type YES/NO");
+            //    moreGpa = Console.ReadLine();
+            //}
+            //while (moreGpa == "YES");
 
+            //nested loops
+            //a loop inside of another loop
+            //the inner loop is executed more times than the outter loop(clock)
 
+            //create nested loop structure that prints:
+            //1234
+            //1234 
+
+            //for(int rows = 1; rows <=2; rows++)
+            //{
+            //    for(int columns = 1; columns <=4; columns++)
+            //    {
+            //        Console.Write(columns);
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //print a triangle
+            //outter loop will go line by line
+            //inner loop will go over different elements in the line
+            //result:
+            //1
+            //12
+            //123
+            //1234...
+
+            //Console.WriteLine("How many rows do you want in your triangle?");
+            //int n = int.Parse(Console.ReadLine());
+            //for(int row = 1; row <= n; row++)
+            //{
+            //    for (int col = 1; col <= row; col++)
+            //    {
+            //        Console.Write(col + " ");
+            //    }
+            //    Console.WriteLine();
+            //}
 
 
 
