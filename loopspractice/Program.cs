@@ -124,6 +124,56 @@ namespace loopspractice
             //    break;
             //}
 
+            //Console.WriteLine("Do you want to play the game? YES/NO");
+            //string playAgain = Console.ReadLine();
+            //while(playAgain == "YES")
+            //{
+            //    Console.WriteLine("Its a remach!");
+            //    Console.WriteLine("Do you want to play again? YES/NO");
+            //    playAgain = Console.ReadLine();
+            //}
+
+            // a do-while loop is similar to a while loop however a do-while loop is used when you want a chunk of code to run at least...
+            //....once but repeat only if a while condition is met
+
+            //the structure of a do-while loop looks like:
+            //do
+            //{
+            //do something
+            //}
+            //while(condition);
+
+            //string playAgain;
+            //do
+            //{
+            //    Console.WriteLine("Welcome to my game!");
+            //    //code for game goes here
+            //    Console.WriteLine("Great Game!");
+            //    Console.WriteLine("Do you want to play again?");
+            //    playAgain = Console.ReadLine();
+            //}
+            //while (playAgain == "YES");
+
+            // ask the user for the class that they would like to add to there gpa calculation
+            //ask user for the letter grade for the class (no+ or-)
+            //ask the if they have another class they would like to take
+            //using a do-while loop repeat the code if user says "YES"
+
+            string moreGpa;
+            do
+            {
+                Console.WriteLine("What class would you like to take to add to your GPA?");
+                Console.ReadLine();
+                Console.WriteLine("please enter the letter grade for the class you want to add.");
+                Console.ReadLine();
+                Console.WriteLine("Is there another class you would like to take? Type YES/NO");
+                moreGpa = Console.ReadLine();
+            }
+            while (moreGpa == "YES");
+
+
+
+
 
 
         }
