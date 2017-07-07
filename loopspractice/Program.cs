@@ -208,7 +208,53 @@ namespace loopspractice
             //    Console.WriteLine();
             //}
 
+            //print the hello world to the console 10 times 
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    Console.WriteLine("Hello world");
+            //}
+            ////print 100 numbers to the console 
+            //for (int i = 1; i <= 100; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            //print the elements of the string 
+            //string words = "I don't even";
+            //for (int i = 0; i <= words.Length - 1; i++)
+            //{
+            //    Console.WriteLine(words[i]);
+            //}
 
+            //foreach (char word in words)
+            //{
+            //    Console.WriteLine(word);
+            //}
+
+            ////vowels problem 
+            //Console.WriteLine("please say something");
+            //string words2 = Console.ReadLine();
+            //int vowelCount = 0;
+            //foreach (char letter in words2)
+            //{
+            //    if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u')
+            //    {
+            //        vowelCount += 1;
+
+            //    }
+
+
+            //}
+            //Console.WriteLine(vowelCount);
+
+            ////lucky number slevin
+            //Console.WriteLine("Pick a number");
+            //int number = int.Parse(Console.ReadLine());
+            //Console.WriteLine("How many times do you want this repeated");
+            //int repeat = int.Parse(Console.ReadLine());
+            //for (int i = 1; i <= repeat; i++)
+            //{
+            //    Console.WriteLine(number);
+            //}
 
 
 
