@@ -219,11 +219,7 @@ namespace loopspractice
             //    Console.WriteLine(i);
             //}
             //print the elements of the string 
-            //string words = "I don't even";
-            //for (int i = 0; i <= words.Length - 1; i++)
-            //{
-            //    Console.WriteLine(words[i]);
-            //}
+
 
             //foreach (char word in words)
             //{
@@ -255,6 +251,57 @@ namespace loopspractice
             //{
             //    Console.WriteLine(number);
             //}
+
+            //Remember that in FizzBuzz, if it is not a FizzBuzz, Fizz, or Buzz number
+            //you print the number itself.
+            //Console.WriteLine("Let's Play FizzBuzz!");
+            //Console.WriteLine("Please enter your FIZZ number");
+            //int fizz = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Please enter your BUZZ number");
+            //int buzz = int.Parse(Console.ReadLine());
+            //Console.WriteLine("What number would you like me to count to? (Pick a high one)");
+            //int endNumber = int.Parse(Console.ReadLine());
+            //for (int i = 0; i <= endNumber; i++)
+            //{
+            //    if (i % fizz == 0 && i % buzz == 0)
+            //    {
+            //        Console.WriteLine("Fizz Buzz!");
+            //    }
+            //    else if (i % fizz == 0)
+            //    {
+            //        Console.WriteLine("Fizz!");
+            //    }
+            //    else if (i % buzz == 0)
+            //    {
+            //        Console.WriteLine("Buzz!");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+
+            //multiplcation table
+            //    int multNum = 1;
+            //    for (int i = 1; i <= 5; i++)
+            //    {
+            //        for (int j = 1; j <= 5; j++)
+            //        {
+            //            Console.Write(multNum * j + " ");
+            //}
+            //multNum += 1;
+            //               Console.WriteLine();
+            //    }
+
+            //Create an array of your favorite movies.
+            //Print out each movie in the list, unless the move starts with a vowel. Hint: Research.startsWith()
+
+
+
+
+
+
+
+
 
 
 
