@@ -295,6 +295,33 @@ namespace loopspractice
             //Create an array of your favorite movies.
             //Print out each movie in the list, unless the move starts with a vowel. Hint: Research.startsWith()
 
+            //string[] favMovies = { "Star Wars", "Anchorman", "Avatar", "Serenity", "Super Troppers" };
+            //foreach (string movie in favMovies)
+            //{
+            //    if (movie.StartsWith("A"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movie.StartsWith("E"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movie.StartsWith("I"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movie.StartsWith("O"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movie.StartsWith("U"))
+            //    {
+            //        continue;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(movie);
+            //    }
 
 
 
@@ -306,6 +333,11 @@ namespace loopspractice
 
 
 
+
+
+
+
+            }
         }
     }
 }
