@@ -336,8 +336,30 @@ namespace loopspractice
             //    userNum = int.Parse(Console.ReadLine());
             //}
             //Console.WriteLine("You won!");
-            
-           
+
+            //Write a console application that asks the user for word or phrase, print the number of vowels in that word to the console. 
+
+            Console.WriteLine("Please enter a statement:");
+            string words2 = Console.ReadLine();
+            int vowelCount = 0;
+            foreach (char letter in words2)
+            {
+                if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u')
+                {
+                    vowelCount += 1;
+                    string[] vowelCount = { "a", "e", "i", "o", "u" };
+                }
+            }
+                Console.WriteLine("Your phrase has [vowelCount0] A's");
+
+
+
+
+
+
+
+
+
 
 
 
@@ -350,6 +372,7 @@ namespace loopspractice
 
 
             }
-        }
+            
+    }
     
 }
